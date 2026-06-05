@@ -810,13 +810,11 @@ nav.active a{
 
     position:relative;
 
-    height:500px;
-
-    overflow:hidden;
+    height:540px;
 
     border-radius:20px;
 
-    cursor:pointer;
+    overflow:hidden;
 }
 
 .artist-card img{
@@ -827,14 +825,12 @@ nav.active a{
 
     object-fit:cover;
 
-    object-position:center;
-
-    display:block;
+    transition:.6s;
 }
 
 .artist-card:hover img{
 
-    transform:scale(1.05);
+    transform:scale(1.08);
 }
 
 .artist-overlay{
@@ -842,6 +838,7 @@ nav.active a{
     position:absolute;
 
     bottom:0;
+
     left:0;
 
     width:100%;
