@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slim Records | Official Website</title>
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+
+    <!-- LOADER -->
+
+    <div id="loader">
+        <h1>SLIM RECORDS</h1>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <header id="navbar">
+
+        <div class="logo">
+            SLIM RECORDS
+        </div>
+
+        <nav>
+
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#artistas">Artistas</a>
+            <a href="#lanzamientos">Lanzamientos</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section id="inicio" class="hero">
+
+        <video autoplay muted loop playsinline>
+            <source src="assets/hero-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>SLIM RECORDS</h1>
+
+            <p>
+                El sonido de una nueva generación.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#artistas" class="btn-gold">
+                    Ver Artistas
+                </a>
+
+                <a href="#contacto" class="btn-outline">
+                    Contáctanos
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NOSOTROS -->
+
+    <section id="nosotros" class="about">
+
+        <div class="about-image" data-aos="fade-right">
+
+            <img src="assets/studio.avif" alt="Studio">
+
+        </div>
+
+        <div class="about-text" data-aos="fade-left">
+
+            <span>QUIÉNES SOMOS</span>
+
+            <h2>Transformamos talento en legado.</h2>
+
+            <p>
+                Slim Records es una disquera independiente dedicada a la producción,
+                desarrollo artístico y distribución digital de artistas emergentes
+                y profesionales.
+            </p>
+
+            <p>
+                Nuestro objetivo es crear música que conecte con el mundo y deje huella.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ARTISTAS -->
+
+    <section id="artistas" class="artists">
+
+        <div class="section-title">
+
+            <span>NUESTRO TALENTO</span>
+
+            <h2>Artistas</h2>
+
+        </div>
+
+        <div class="artist-grid">
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('kalim')">
+
+                <img src="assets/artist1.png" alt="Artista">
+
+                <div class="artist-overlay">
+
+                    <h3>Kali.M</h3>
+
+                </div>
+
+            </div>
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('ariel')">
+                
+                <img src="assets/artist2.jpg" alt="Artista">
+
+                <div class="artist-overlay">
+
+                    <h3>Ariel Kciel</h3>
+
+                </div>
+
+            </div>
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('jm')">
+
+                <img src="assets/artist3.png" alt="Artista">
+
+                <div class="artist-overlay">
+
+                    <h3>El JM</h3>
+
+                </div>
+
+            </div>
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('nova')">
+                
+                <img src="assets/artist4.jpg" alt="Artista">
+
+                <div class="artist-overlay">
+                    
+                    <h3>Slim_Nova</h3>
+                    
+                </div>
+
+            </div>
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('alex')">
+
+                <img src="assets/artist5.jpg"alt="Artista">
+
+                <div class="artist-overlay">
+
+                    <h3>Alex CA</h3>
+                    
+                </div>
+            </div>
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('matias')">
+
+                <img src="assets/artist6.png"alt="Artista">
+
+                <div class="artist-overlay">
+
+                    <h3>Matías CA</h3>
+
+                </div>
+            </div>
+
+            <div class="artist-card" data-aos="zoom-in" onclick="openArtist('cacharpa')">
+
+                <img src="assets/artist7.jpg"alt="Artista">
+
+                <div class="artist-overlay">
+
+                    <h3>Cacharpa</h3>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ESTADISTICAS -->
+
+    <section class="stats">
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="500">0</h2>
+
+            <span>K Streams</span>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="50">0</h2>
+
+            <span>Lanzamientos</span>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="10">0</h2>
+
+            <span>Artistas</span>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="3">0</h2>
+
+            <span>Países</span>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICIOS -->
+
+    <section id="servicios" class="services">
+
+        <div class="section-title">
+
+            <span>SERVICIOS</span>
+
+            <h2>Lo Que Hacemos</h2>
+
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-box">
+                <i class="fa-solid fa-microphone"></i>
+                <h3>Producción Musical</h3>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-sliders"></i>
+                <h3>Mezcla & Mastering</h3>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-compact-disc"></i>
+                <h3>Distribución Digital</h3>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-video"></i>
+                <h3>Producción Audiovisual</h3>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Marketing Musical</h3>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-star"></i>
+                <h3>Desarrollo Artístico</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+    <!-- CONTACTO -->
+
+    <section id="contacto" class="contact">
+
+        <div class="section-title">
+
+            <span>CONTÁCTANOS</span>
+
+            <h2>Trabaja con Nosotros</h2>
+
+        </div>
+
+        <form>
+
+            <input type="text" placeholder="Nombre">
+
+            <input type="email" placeholder="Correo">
+
+            <input type="text" placeholder="Teléfono">
+
+            <textarea rows="5" placeholder="Mensaje"></textarea>
+
+            <button type="submit">
+                Enviar Mensaje
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- WHATSAPP -->
+
+    <a href="https://wa.me/593XXXXXXXXX" class="whatsapp">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>SLIM RECORDS</h2>
+
+        <p>
+            Tu sonido, tu legado.
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@slim_records_mx_ec"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61590621839590"><i class="fab fa-facebook"></i></a>
+
+        </div>
+
+        <p class="copy">
+            © 2026 Slim Records. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <!-- MODAL ARTISTA-->
+
+    <div id="artistModal" class="artist-modal">
+
+        <div class="artist-modal-content">
+
+            <span class="close-modal"
+                    onclick="closeArtist()">
+                    &times;
+            </span>
+
+            <div id="artistInfo"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
