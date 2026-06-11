@@ -293,7 +293,12 @@ nav a:hover{
 
     position:absolute;
 
-    inset:0;
+    bottom:0;
+    left:0;
+
+    width:100%;
+
+    padding:25px;
 
     background:linear-gradient(
         transparent,
@@ -302,11 +307,7 @@ nav a:hover{
 
     display:flex;
 
-    flex-direction:column;
-
-    justify-content:flex-end;
-
-    padding:30px;
+    align-items:flex-end;
 }
 
 .artist-overlay h3{
