@@ -298,14 +298,13 @@ function openArtist(artist){
             youtube: "https://www.youtube.com/@KaliMOficial",
 
             songs: [
+                {
+                    title: "Aún me amas?",
+                    youtube:"https://youtu.be/v4SpXsiKwKI?si=8lgvbzWbXuqjxP2b"
+                }
             ],
 
             upcoming: [
-                {
-                    title: "Aún me amas?",
-                    date: "10/06/2026",
-                    youtube:"https://youtu.be/v4SpXsiKwKI?si=8lgvbzWbXuqjxP2b"
-                }
             ]
         },
 
@@ -331,6 +330,10 @@ function openArtist(artist){
                {
                 title: "Luces Apagadas",
                 youtube: "https://youtu.be/eHf25KgSqwA?si=_RrpOoVtrxVT2tE3"
+               },
+               {
+                  title: "Diva",
+                  youtube: "https://youtu.be/U9E4SBC7Bs0?si=bExbTyRVL1yA8473"
                }
             ],
 
@@ -359,15 +362,17 @@ function openArtist(artist){
                 {
                     title: "NO HAY CRISIS EP",
                     youtube: "https://youtube.com/playlist?list=PLx-QcVeQ5n8yOurpBzUX6aHuYOaVr0HUW&si=ZIAtU2JwmNpvZ2DT" 
-                }
+                },
+               {
+                  title: "Pa' Qué Me Enamoras",
+                  youtube: "https://www.youtube.com/watch?v=SEUWwaD3qEs"
+               },
+               {
+                  title: "Ying Yang",
+                  youtube: "https://youtu.be/Js51Ljwknos?si=-0XBPueh_w-blhh3"
             ],
             
             upcoming: [
-                {
-                    title: "Pa Qué Me Enamoras",
-                    date: "10/06/2026",
-                    youtube: "https://youtu.be/SEUWwaD3qEs"
-                }
             ]
         },
 
@@ -461,7 +466,20 @@ function openArtist(artist){
             upcoming:[
 
             ]
-        }
+        },
+
+       lineadirecta: {
+          name: "Linea Directa",
+          image: "assets/artist8.jpg",
+          bio: "Artista oficial de Slim Records.",
+          instagram: "https://www.instagram.com/linea_directa_official/?hl=es",
+          spotify: "#",
+          youtube: "#",
+
+          songs: [
+             ],
+          incoming:[
+             ]
 
     };
 
