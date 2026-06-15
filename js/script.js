@@ -19,7 +19,6 @@ window.addEventListener("load", () => {
 
 });
 
-
 /* AOS */
 
 AOS.init({
