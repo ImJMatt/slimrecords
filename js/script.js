@@ -369,6 +369,7 @@ function openArtist(artist){
                {
                   title: "Ying Yang",
                   youtube: "https://youtu.be/Js51Ljwknos?si=-0XBPueh_w-blhh3"
+               }
             ],
             
             upcoming: [
