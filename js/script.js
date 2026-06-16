@@ -482,7 +482,7 @@ function openArtist(artist){
           incoming:[
              ]
 
-    };
+          },
 
     const a = artists[artist];
 
