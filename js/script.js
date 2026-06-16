@@ -482,8 +482,8 @@ function openArtist(artist){
           upcoming:[
              ]
 
-          };
-      }
+          }
+      };
     const a = artists[artist];
 
     info.innerHTML = `
