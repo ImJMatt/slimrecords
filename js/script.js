@@ -351,7 +351,7 @@ function openArtist(artist){
 
             instagram: "https://www.instagram.com/el_jm_oficial_/",
 
-            spotify: "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbFp6ZWpkemZleWo1MEpEbUFXNEl3S2ptMW1KQXxBQ3Jtc0tsMXVaOUFxR2x1RDdTUzZqTVpLLVQ3UFFISU01Z1ZkM2Q1U19zZUlpUGZUaTNLRVhzcjY3SDYxZktPS0pxc2IxbEdGMktNeTRKS2VYeV8tZ1VqdmJwQlc4RUR2c3h0YlEtalpxUzBkSlRtU3FydkpLVQ&q=https%3A%2F%2Fopen.spotify.com%2Fartist%2F1wsbKsH7O3TUlZ4PG07HnC%3Fsi%3DSntsO0B1QHixx1D3ok6vpQ",
+            spotify: "https://open.spotify.com/artist/1wsbKsH7O3TUlZ4PG07HnC",
 
             youtube: "https://www.youtube.com/@ElJMoficial",
 
@@ -373,6 +373,7 @@ function openArtist(artist){
             ],
             
             upcoming: [
+               
             ]
         },
 
